@@ -32,7 +32,6 @@ git clone https://github.com/trailanalytics/laravel.pmt.git
 edit this section of code.
 
 ```php
-
 	/**
      * fetch all permissions
      * @return mixed
@@ -44,12 +43,12 @@ edit this section of code.
         //return Permission::select('id', 'name')->with('roles')->get();  // <== uncomment this.
 
         return []; // <== delete this.
-        
+
     }
 ```
 
 
-## Table of Content
+## Notice
 
 Folder    | Description
 :----------|:----------
@@ -57,3 +56,14 @@ Folder    | Description
  Storage\backups     | where all backups are stored (MysQl dumps and PMT fields file)
  Storage\exports     | where all downloaded XLS and CSV files are stored.
 
+
+Credits
+-------
+
+- [nathanmac](https://github.com/nathanmac)
+- [All Contributors](../../contributors)
+
+License
+-------
+
+The MIT License (MIT). Please see [License File](LICENSE.md) for more information.

@@ -27,12 +27,13 @@ git clone https://github.com/trailanalytics/laravel.pmt.git
 
 - Run php artisan serve 
 
-- Start a browser and paste [Link](localhost:8000/upload) where you will upload a CSV 'PMT.Fields.csv' file store in '\storage\backups'.
+- Start a browser and paste [Link](http://localhost:8000/upload) where you will upload a CSV 'PMT.Fields.csv' file store in '\storage\backups'.
 
 - Check out this file "AuthServiceProvider.php" from the "App\Providers" and 
 edit this section of code.
 
 ```php
+
 	/**
      * fetch all permissions
      * @return mixed

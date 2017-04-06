@@ -34,7 +34,7 @@ edit this section of code.
 
 ```php
 
-/**
+   /**
      * fetch all permissions
      * @return mixed
      */

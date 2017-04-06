@@ -16,7 +16,7 @@ git clone https://github.com/trailanalytics/laravel.pmt.git
 
 #### Download Zip file
 
-- [PMT System](hhttps://github.com/trailanalytics/laravel.pmt/archive/v5.0.zip).
+- [PMT System](hhttps://github.com/trailanalytics/laravel.pmt/archive/v5.0.zip)
 
 #### Instructions
 
@@ -26,7 +26,7 @@ git clone https://github.com/trailanalytics/laravel.pmt.git
 
 - Run php artisan serve 
 
-- Start a browser and paste [link]("localhost:8000/upload"). where you will upload a CSV 'PMT.Fields.csv' file store in '\storage\backups'.
+- Start a browser and paste [link]("localhost:8000/upload") where you will upload a CSV 'PMT.Fields.csv' file store in '\storage\backups'.
 
 - Check out this file "AuthServiceProvider.php" from the "App\Providers" and 
 edit this section of code.

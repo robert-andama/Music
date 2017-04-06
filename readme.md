@@ -17,7 +17,7 @@ git clone https://github.com/trailanalytics/laravel.pmt.git
 #### Download Zip file
 
 - [PMT System](https://github.com/trailanalytics/laravel.pmt/archive/v5.0.zip)
-- [Trail Analytics](https://github.com/trailanalytics)
+
 
 #### Instructions
 

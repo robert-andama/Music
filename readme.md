@@ -34,17 +34,16 @@ edit this section of code.
 
 ```php
 
-   /**
+    /**
      * fetch all permissions
      * @return mixed
      */
-
     private function getPermissions()
     {  
 
-        //return Permission::select('id', 'name')->with('roles')->get();  // <== uncomment this.
+        //return Permission::select('id', 'name')->with('roles')->get();   <== uncomment this.
 
-        return []; // <== delete this.
+        return [];  <== delete or comment this.
 
     }
 ```
